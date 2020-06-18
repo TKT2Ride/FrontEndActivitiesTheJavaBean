@@ -164,6 +164,14 @@
     <Content Include="IMAGE_CONTENT\Life Navigators\LifeNavigators4.jpg" />
     <Content Include="IMAGE_CONTENT\Life Navigators\LifeNavigatorsMission.txt" />
     <Content Include="INSTRUCTIONS\Instructions.txt" />
+    <Content Include="Moorching\CTW.html" />
+    <Content Include="Moorching\HFH.html" />
+    <Content Include="Moorching\LN.html" />
+    <Content Include="Moorching\Media.html" />
+    <Content Include="Preston\CodeTheWay.html" />
+    <Content Include="Preston\Heroes For Healthcare.html" />
+    <Content Include="Preston\Life Navigators.html" />
+    <Content Include="Preston\Media.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
