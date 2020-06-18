@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <link href="site.css" rel="stylesheet" />
+    <script src="mySite.js"></script>
     <title>Heroes For Healthcare</title>
 </head>
-<body>
+<body onload="showHide()">
     <div>
         <img src="../IMAGE_CONTENT/Heroes for Healthcare/Heroes Logo.png" width="100" />
     </div>
@@ -22,7 +23,7 @@
 
     </p>
 
-    
+
 
     <h3 class="minorHeading">
         Unemployed Veterans
@@ -41,16 +42,20 @@
     <div>
         <img src="../IMAGE_CONTENT/Heroes for Healthcare/Heroes3.png" align="right" height="175" width="310" />
     </div>
-    <h3 class="minorHeading">
-        Message from the President
-    </h3>
-    <p class="generalText">
-        I started Heroes for Healthcare to help our U.S. military personnel receive the resources and credentials they need to continue their career in healthcare as a civilian.
 
-        We need supporters like you to help our mission so our service members can get a job and better their lives.
+    <button onclick="showHide()" class="buttonFormatting">Show Message from the President</button>
+    <div id="vision">
+        <p class="minorHeading">Mesage From the President</p>
+        <div class="generalText">
+            <p>
+                I started Heroes for Healthcare to help our U.S. military personnel receive the resources and credentials they need to continue their career in healthcare as a civilian.
 
-        After all they did for us, supporting this organization seems like the right thing to do. Make a difference today by supporting Heroes for Healthcare.
-    </p>
+                We need supporters like you to help our mission so our service members can get a job and better their lives.
+
+                After all they did for us, supporting this organization seems like the right thing to do. Make a difference today by supporting Heroes for Healthcare.
+            </p>
+        </div>
+    </div>
 
 
     <a class="buttonFormatting" href="https://localhost:44325/Grant%20Fisco/CodeTheWay.html">Home</a>
