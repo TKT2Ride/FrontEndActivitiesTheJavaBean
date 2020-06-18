@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <link href="Site.CSS" rel="stylesheet" />
+    <script src="Show and Hide.js"></script>
     <title>Code the Way</title>
 </head>
-<body>
-    <img src="../IMAGE_CONTENT/Code the Way/CodeTheWay Logo.png"/>
+<body onload="showHide()">
+    <img src="../IMAGE_CONTENT/Code the Way/CodeTheWay Logo.png" />
     <h1 class="majorHeading" align="center">Code the Way</h1>
     <h3 class="minorHeading">Mission</h3>
     <p class="generalText">
@@ -32,13 +33,17 @@
             <div class="tooltip">
                 Increasing certified computer science teachers
                 <div class="tooltiptext">Support and training for computer science teacher certification increase the availability and quality of high school computer science programs.</div>
-            </div> 
+            </div>
         </li>
     </ul>
-    <img align="right" src="../IMAGE_CONTENT/Code the Way/Team Learning.jpg" width="25%"/>
-    <h3 class="minorHeading">Vision</h3>
-    <p class="generalText">
-        High school students in Greater Milwaukee have access to high-quality computer science education and real-world job experiences, positioning them for success in technology-related fields</>
+    <button onclick="showHide()" class="buttonFormatting">Show Vision</button>
+    <div id="vision">
+        <p class="minorHeading">Vision</p>
+        <div class="generalText">
+            <p>High school students in Greater Milwaukee have access to high quality computer science education and real-world job experiences, positioning them for success in technology-related fields.</p>
+        </div>
+    </div>
+    <img align="right" src="../IMAGE_CONTENT/Code the Way/Team Learning.jpg" width="25%" />
         <h3 class="minorHeading">Links</h3>
         <a class="buttonFormatting" href="https://localhost:44325/Preston/Life%20Navigators.html">Life Navigators </a>
         <a class="buttonFormatting" href="https://localhost:44325/Preston/Heroes%20For%20Healthcare.html">Heroes For Healthcare</a>

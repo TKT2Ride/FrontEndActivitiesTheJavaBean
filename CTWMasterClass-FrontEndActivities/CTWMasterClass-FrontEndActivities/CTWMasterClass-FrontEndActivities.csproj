@@ -170,6 +170,7 @@
     <Content Include="Moorching\Media.html" />
     <Content Include="Preston\CodeTheWay.html" />
     <Content Include="Preston\Heroes For Healthcare.html" />
+    <Content Include="Preston\Show and Hide.js" />
     <Content Include="Preston\Life Navigators.html" />
     <Content Include="Preston\Media.html" />
     <Content Include="Preston\Site.CSS" />
